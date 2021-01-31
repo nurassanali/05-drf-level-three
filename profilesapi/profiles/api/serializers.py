@@ -8,7 +8,7 @@ class ProfileSerializer(serializers.ModelSerializer):
 
   class Meta:
     model = Profile
-    friends = "__all__"
+    fields = "__all__"
 
 class ProfileAvatarSerializer(serializers.ModelSerializer):
 
